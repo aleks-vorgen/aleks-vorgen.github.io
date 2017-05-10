@@ -1,0 +1,160 @@
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+/*browser CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Оформление параграфов */
+body {
+    background: url(http://s015.radikal.ru/i333/1705/e2/35633acab4e3.jpg) repeat-x;
+}
+
+#page {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.strong-red {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: ;
+    text-indent: 30px;
+    line-height: 30px;
+    font-family: "Comic Sans MS", sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    font-family: "bad script", sans-serif;
+}
+
+h3 {
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*Оформление навигационного списка*/
+#navigation {
+    font-size: 20px;
+    margin-left: 240px;
+    height: 16px;
+    margin-top: 45px;
+}
+
+#navigation ul li {
+    float: left;
+}
+
+#navigation ul li a {
+    color: #000000;
+    padding: 0 30px;
+    font-family: "Cormorant Infant", sans-serif;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    text-decoration: underline;
+    background: rgba(0, 106, 0, 0.4);
+    color: rgba(245, 255, 0, 0.79);
+}
+
+/*оформление страницы "Обо мне"*/
+#aboutme {
+    font-family: "Comic Sans MS", sans-serif;
+    font-variant: normal;
+    text-align: center;
+}
+
+#character li {
+    font-family: "Cormorant Infant";
+    text-align: left;
+    list-style: disc;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#a1 li {
+    list-style: circle;
+}
+
+#a2 {
+    width: 370px;
+    float: left;
+}
+
+#bio {
+    width: 710px;
+    text-align: left;
+    float: right;
+}
+
+/*Оформление страницы контактов*/
+#contacts {
+    text-align: left;
+    font-family: "Arial" cursive;
+}
+
+#link {
+    color: black;
+}
+
+#link:hover {
+    color: #004eff;
+}
