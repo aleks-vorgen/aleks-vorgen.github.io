@@ -1,0 +1,59 @@
+<!DOCTYPE html5>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Форма</title>
+      <style>
+         form {
+            display: inline-block;
+            width: 450px;
+            position: relative;
+         }
+         fieldset {
+            background: #D9EC9F;
+            border: 1px solid #356B19;
+         }
+         input, label {
+            margin: 10px 5px;
+         }
+         .answer {
+            background: #C67033;
+            border: 1px solid white;
+            padding: 5px 15px;
+            margin-bottom: 0;
+            color: white;
+         }
+         legend {
+            font: bold 15px Arial;
+            color: #C67033;
+         }
+         img, span {
+            position: absolute;
+         }
+         span {
+            font: bold 15px serif;
+         }
+         .forma {
+            float: right;
+            margin: 50px 30px 10px 0;
+         }
+      </style>
+   </head>
+   <body>
+      <form>
+         <fieldset>
+            <legend>Выбор варианта</legend>
+               <img src="http://htmlbook.ru/files/check-bg.png">
+               <span>Какой раздел психологии изучает познавательный процесс человеческого сознания?</span>
+               <div class="forma">
+                  <input type="radio" name="frm" value="1"><label for="frm">Психоанализ</label><br>
+                  <input type="radio" name="frm" value="1"><label for="frm">Бихевиоризм</label><br>
+                  <input type="radio" name="frm" value="1"><label for="frm">Когнитивная психология</label><br>
+                  <input type="radio" name="frm" value="1"><label for="frm">Гуманистическая психология</label><br>
+                  <input type="radio" name="frm" value="1"><label for="frm">Гештальт-психология</label><br>
+                  <input class="answer" type="button" value="Ответить">
+               </div>
+            </fieldset>
+         </form>
+      </body>
+</html>
