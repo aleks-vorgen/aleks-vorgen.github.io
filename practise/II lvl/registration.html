@@ -1,0 +1,122 @@
+<!DOCTYPE html5>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Форма регистрации</title>
+      <style>
+         form {
+            width: 400px;
+            height: 300px;
+            border: 2px solid #4169E1;
+            background: #1E90FF;
+         }
+         .name {
+            position: relative;
+            width: 100%;
+            height: 65px;  
+            border-bottom: 1px solid white;
+            font: 26px Arial;
+            color: white;
+         }
+         .name span {
+            position: absolute;
+            left: 25px;
+            bottom: 10px;  
+         }
+         .contacts {
+            width: 100%;
+            height: 170px;
+            font: 18px Arial;
+            color: white;
+         }
+         label {
+            display: block;
+            margin-left: 25px;
+         }
+         input {
+            margin-left: 25px;
+         }
+         .email {
+            position: relative;
+            width: 100%;
+            height: 85px;  
+         }
+         .email span {
+            position: absolute;  
+            bottom: 10px;
+         }
+         .email input{
+            width: 305px; 
+         }
+         .passwords {
+            height: 85px;
+         }
+         .password {
+            position: relative;
+            float: left;
+            width: 50%;
+            height: 100%; 
+         }
+         .password span {
+            position: absolute;  
+            bottom: 25px;
+         }
+         .password input, .password label {
+            width: 130px;
+         }
+         .again span {
+            position: absolute;  
+            bottom: 25px;
+         }
+         .again input, .again label {
+            margin-left: 0;
+            width: 130px;
+         }
+         .button {
+            position: relative;
+            height: 65px;
+         }
+         button {
+            position: absolute;
+            top: 15px;
+            left: 25px;  
+            width: 100px;
+            height: 30px;
+            border: none;
+            background: #FFDF7F;
+         }
+      </style>
+   </head>
+   <body>
+      <form action="handler.php" class="reg">
+         <div class="name">
+            <span>Регистрация</span>
+         </div>
+         <div class="contacts">
+            <div class="email">
+               <span>
+                  <label for="e-mail">E-mail</label>
+                  <input id="e-mail" name="e-mail" type="e-mail">   
+               </span>
+            </div>
+            <div class="passwords">
+               <div class="password">
+                  <span>
+                     <label for="pass">Пароль</label>
+                     <input id="pass" name="pass" type="password">
+                  </span>
+               </div>
+               <div class="password again">
+                  <span>
+                     <label for="pass-again">Еще раз</label>
+                     <input id="pass-again" name="pass" type="password"> 
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="button">
+            <button type="submit">Отправить</button>
+         </div>
+      </form>
+   </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html5>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Прогноз погоды</title>
+      <style>
+         .weather {
+            width: 130px;
+            height: 170px;
+            background: white;
+            float: left;
+            margin-right: 5px;
+         }
+         .day {
+            background: #00BFFF;
+            margin: 0;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+         }
+         .weather img{
+            display: block;
+            margin: 0 auto;  
+         }
+         .temp {
+            text-align: center;
+            margin: 0;
+            font-size: 35px;
+         }
+         .weather:hover {
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="weather sun">
+         <p class="day">31.08</p>
+         <img src="http://htmlbook.ru/files/weather-sun.jpg">
+         <p class="temp">+20</p>
+      </div>
+      <div class="weather snow">
+         <p class="day">01.09</p>
+         <img src="http://htmlbook.ru/files/weather-snow.jpg">
+         <p class="temp">-3</p>
+      </div>
+      <div class="weather blizzard">
+         <p class="day">02.09</p>
+         <img src="http://htmlbook.ru/files/weather-blizzard.jpg">
+         <p class="temp">-10</p>
+      </div>
+   </body>
+</html>

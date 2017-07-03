@@ -1,0 +1,63 @@
+<!DOCTYPE html5>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Рейтинг</title>
+      <style>
+         div {
+            font: 24px Arial;
+            text-align: center;
+            color: white;
+         }
+         .block {
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+         }
+         .green {
+            min-width: 120px;
+            background: #9ACD32;
+            border-radius: 10px 0 0 10px;
+            line-height: 70px;
+         }
+         .between {
+            flex-grow: 2;
+            background: #A9A9A9;
+         }
+         .wrapper {
+            display: flex;
+            height: 70px; 
+            padding: 0 10px;
+            justify-content: space-around;
+            align-items: center;
+            min-width: 120px;
+            background: #A9A9A9;
+            border-radius: 0 10px 10px 0;
+         }  
+         .minus, .plus {
+            width: 27px;
+            height: 27px;
+            border-radius: 20%;
+            box-shadow: 0 0 10px 1px black;
+         }
+         .minus {
+            background: #A52A2A;
+         }
+         .plus {
+            background: #9ACD32;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="block">
+         <div class="green">9691</div>
+         <div class="between"></div>
+         <div class="wrapper">
+            <div class="minus">-</div>
+            <div class="six">6</div>
+            <div class="plus">+</div>
+         </div>
+      </div>
+   </body>
+</html>

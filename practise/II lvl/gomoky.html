@@ -1,0 +1,138 @@
+<!DOCTYPE html5>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Поле для игры в гомоку</title>
+      <style>
+         table {
+            border-collapse: collapse;
+            border-spacing: 0px;
+            counter-reset: letter list 16;
+         }
+         td  {
+            border: 1px solid #000;
+            height: 26px;
+            width: 26px;
+         }
+         .foot td {
+            border: none;
+            padding-top: 15px;
+            text-align: center;	
+         }
+         .foot td:after {
+            content: counter(letter, upper-alpha);
+            counter-increment: letter 1;
+         }
+         .body th:before {
+            content: counter(list);
+            counter-increment: list -1;
+            font-weight: normal;
+            padding-right: 10px;
+         }
+      </style>
+   </head>
+   <body>
+      <table>
+         <tbody class="body">
+            <tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+         </tbody>
+         <tfoot class="foot">
+			<tr>
+				<th></th>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+         </tfoot>
+      </table>
+   </body>
+</html>
