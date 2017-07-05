@@ -5,55 +5,55 @@
       <title>Рейтинг</title>
       <style>
          div {
-            font: 24px Arial;
+            font: 24px Book Antique;
             text-align: center;
             color: white;
          }
-         .block {
-            height: 70px;
+         .conteiner {
+            height: 80px;
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-         }
-         .green {
-            min-width: 120px;
-            background: #9ACD32;
-            border-radius: 10px 0 0 10px;
-            line-height: 70px;
          }
          .between {
-            flex-grow: 2;
-            background: #A9A9A9;
+            min-width: 150px;
+            background: #90d600;
+            border-radius: 10px 0 0 10px;
+            line-height: 75px;
          }
-         .wrapper {
+         .behind {
+            min-width: 50px;
+            width: 971px;
+            background: #919191;
+         }
+         .button {
             display: flex;
-            height: 70px; 
-            padding: 0 10px;
-            justify-content: space-around;
+            height: 80px;
+            padding-right: 25px;
             align-items: center;
-            min-width: 120px;
-            background: #A9A9A9;
+            min-width: 140px;
+            background: #919191;
             border-radius: 0 10px 10px 0;
-         }  
+         } 
+         .minus {
+            background: #c70000;
+            margin-right: 25px;
+         }
+         .plus {
+            background: #43d601;
+            margin-left: 25px;
+         }
          .minus, .plus {
             width: 27px;
             height: 27px;
-            border-radius: 20%;
-            box-shadow: 0 0 10px 1px black;
-         }
-         .minus {
-            background: #A52A2A;
-         }
-         .plus {
-            background: #9ACD32;
+            border-radius: 10%;
+            box-shadow: 0 0 7px 1px #000000;
          }
       </style>
    </head>
    <body>
-      <div class="block">
-         <div class="green">9691</div>
-         <div class="between"></div>
-         <div class="wrapper">
+      <div class="conteiner">
+         <div class="between">9691</div>
+         <div class="behind"></div>
+         <div class="button">
             <div class="minus">-</div>
             <div class="six">6</div>
             <div class="plus">+</div>
