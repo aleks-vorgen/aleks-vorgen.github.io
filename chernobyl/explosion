@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CHERNOBYL</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="explosion-style">
+        <img id="explosion-gif" src="https://media1.tenor.com/images/e6b02060b9716e1c182637343d1423db/tenor.gif">
+    </body>
+</html>
